@@ -3,21 +3,32 @@
    padding: 0px;
 }
 
+html {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+
 #nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding-left: 35%;
     overflow: hidden;
-    background: rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0.1);
     position: fixed;
     top: 0;
-    left: 32%;
+    left: 0;
     right:0;
 }
 
 #nav li {
     display:inline;
     font-size: 1.2em;
+    font-family: 'Alfa Slab One', cursive;
+
 }
 
 #nav li a {
@@ -29,11 +40,11 @@
 }
 
 #nav li a:hover {
-    background-color: lightgray;
+    color: grey;
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/restaurant.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/restaurant.jpg);
     padding: 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -43,26 +54,72 @@ header {
     width:100%;
     margin: 0;
 }
-
+    
 #section2 {
-    border: solid 1px black;
     padding: 100px;
+    overflow: hidden;
+}
+
+#about {
+    width:45%;
+    float: left;
+    padding-left: 20px;
 }
 
 #aboutImage {
-    width: 30%;
+    width: 42%;
+    padding-top: 45px;
+    padding-left: 130px;
+    float:left;
 }
 
 #section3 {
-    border: solid 1px red;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../images/restaurant2.jpg);
+    background-size: cover;
+    background-color: #000;
 }
 
 #section3 h1 {
     text-align: center;
+    color:#fff;
 }
 
 #section3 p {
     text-align: center;
+    color: #fff;
+}
+
+.formStyle { 
+  align-content: center;
+  padding: 20px; 
+  width: 350px; 
+  margin-left: 320px;
+  margin-top: 80px;
+  margin-bottom: 20px; 
+  border-bottom-width: 1px; 
+  border-bottom-style: solid; 
+  border-bottom-color: #fff; 
+  border-top-style: none; 
+  border-right-style: none; 
+  border-left-style: none; 
+  font-size: 0.8em;
+  font-weight: 100;
+  color: #000;
+  background-color: transparent;
+}
+
+#subscribe {
+    float: right;
+	background-color:dimgrey;
+	display:inline-block;
+	color:#fff;
+    border-style: none;
+	font-size:14px;
+	padding:6px 24px;
+    margin-top: 105px;;
+    margin-right: 400px;
+	text-decoration:none;
 }
 
 footer {

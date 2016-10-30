@@ -107,10 +107,28 @@ nav li a:hover {
 
 #section3 h1 {
     text-align: center;
-    color:#fff;
+    color:#e74c3c;
 }
 
 #section3 p {
+    text-align: center;
+    color: #fff;
+}
+
+#mailSection {
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../images/restaurant2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+}
+
+#mailSection h1 {
+    text-align: center;
+    color:#fff;
+}
+
+#mailSection p {
     text-align: center;
     color: #fff;
 }

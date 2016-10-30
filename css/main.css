@@ -14,6 +14,41 @@ h1, h2, h3, h4, h5, h6 {
     font-weight:100;
 }
 
+.headBanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/restaurant.jpg);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+    background-size: cover;
+    width:100%;
+    margin: 0;
+}
+
+.headBanner2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/kitchen.jpg);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    background-size: cover;
+    width:100%;
+    margin: 0;
+}
+
+.headBanner3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/local.jpg);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    background-size: cover;
+    width:100%;
+    margin: 0;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -43,18 +78,6 @@ nav li a {
 nav li a:hover {
     color: grey;
 }
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/restaurant.jpg);
-    padding: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 800px;
-    background-size: cover;
-    width:100%;
-    margin: 0;
-}
     
 #section2 {
     padding: 100px;
@@ -77,6 +100,7 @@ header {
 #section3 {
     padding: 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../images/restaurant2.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-color: #000;
 }
@@ -112,7 +136,7 @@ header {
 
 #subscribe {
     float: right;
-	background-color:dimgrey;
+	background-color:#e74c3c;
 	display:inline-block;
 	color:#fff;
     border-style: none;
@@ -133,18 +157,18 @@ footer {
 #column1 {
     float:left;
     padding-left: 10%;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #column2 {
     float: left;
     padding-left: 15%;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #column3 {
     float: right;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-right:10%;
     text-align: center;
 }
@@ -161,7 +185,7 @@ footer {
 }
 
 #reservation {
-    background-color:dimgrey;
+    background-color:#e74c3c;
 	display:inline-block;
 	color:#fff;
     border-style: none;
@@ -201,4 +225,171 @@ footer {
 #socialMedia li a {
     padding: 20px;
 }
+
+#infoSection {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+#location {
+    background-color: rgb(237, 238, 239);
+    width: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 20px;
+    float: left;
+}
+
+#phoneNumber {
+    background-color: rgb(237, 238, 239);
+    width: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px;
+    float: left;
+}
+
+#emailAddress {
+    background-color: rgb(237, 238, 239);
+    width: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin: 20px;
+    float: left;
+}
+
+#map {
+    margin-top: 400px;
+}
+
+.form {
+  width: 400px;
+  margin:auto;
+  background: white;
+  border-radius: 3px;
+  margin-top: 5em;
+  margin-bottom: 6em;
+  padding: 1.25em;
+  text-align: center;
+}
+
+.btn-primary {
+  box-shadow: 0; 
+  border: none; 
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: #ffffff;
+  outline: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: all .5s;
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  width: 30%;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 1.44em;
+  margin-bottom: .55em;
+  display: inherit;
+}
+
+.btn-primary:hover {
+  background-color: rgb(237, 238, 239);
+}
+
+.form-group {
+  position: relative;
+  opacity: 1;
+  transition: .6s;
+}
+
+.input-field-icon {
+  color: #bfc9ca;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  transition: .6s;
+}
+
+.form-control {
+  transition: opacity .6s;
+  opacity: 1;
+  border: 0;
+  border-bottom: 2px solid #bdc3c7;
+  border-radius: 0;
+  background: white;
+  font-size: 15px;
+  line-height: 1.467;
+  padding: 4px;
+  height: 42px;
+  -webkit-appearance: none;
+}
+
+input, textarea {
+  transition: all 800ms;
+  font-family: "Roboto";
+  resize: none;  /* removes the resize handle */
+  overflow: auto; /* removes default scrolling bars in IE */
+  outline:none; 
+  font-family:inherit; 
+  box-sizing:border-box;
+  width: 100%;
+  padding: 0px 4px;
+  color: #34495e;
+  margin-top: 1.25em;
+}
+
+
+.has-error input, .has-error textarea {
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.has-error .input-field-icon {
+  color: #e74c3c;
+}
+
+.has-success input, .has-success textarea {
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.has-success .input-field-icon {
+  color: rgb(237, 238, 239);
+}
+
+
+input:focus, textarea:focus {
+  border-color: #e74c3c;
+  color: #000;
+}
+
+input:focus + .input-field-icon {
+  color: #000;
+}
+
+textarea.form-control {
+  height: 120px;
+  transition: .6s;
+}
+
+textarea.form-control:focus {
+  height: 200px;
+  border-color: #e74c3c;
+}
+
+
+@media (max-width: 600px) {
+  .form {
+    width: 90%;
+    margin-top: 12%;
+  }
+}
+
+
 

@@ -14,6 +14,29 @@ h1, h2, h3, h4, h5, h6 {
     font-weight:100;
 }
 
+.headBanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/restaurant.jpg);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+    background-size: cover;
+    width:100%;
+    margin: 0;
+}
+
+.headBanner2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/kitchen.jpg);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    background-size: cover;
+    width:100%;
+    margin: 0;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -43,18 +66,6 @@ nav li a {
 nav li a:hover {
     color: grey;
 }
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/restaurant.jpg);
-    padding: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 800px;
-    background-size: cover;
-    width:100%;
-    margin: 0;
-}
     
 #section2 {
     padding: 100px;
@@ -77,6 +88,7 @@ header {
 #section3 {
     padding: 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../images/restaurant2.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-color: #000;
 }
@@ -133,18 +145,18 @@ footer {
 #column1 {
     float:left;
     padding-left: 10%;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #column2 {
     float: left;
     padding-left: 15%;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #column3 {
     float: right;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-right:10%;
     text-align: center;
 }

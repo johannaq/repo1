@@ -5,11 +5,13 @@
 
 html {
     font-family: 'Gentium Book Basic', serif;
+    background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alfa Slab One', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight:100;
 }
 
 nav ul {
@@ -28,7 +30,6 @@ nav li {
     display:inline;
     font-size: 1.2em;
     font-family: 'Alfa Slab One', cursive;
-
 }
 
 nav li a {
@@ -168,3 +169,36 @@ footer {
 	padding:6px 50px;
 	text-decoration:none;
 }
+
+#food {
+    padding: 50px;
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+}
+
+#drinks {
+    padding: 50px;
+    background-color: #fff;
+    color:#000;
+    text-align: center;
+}
+
+#socialMedia {
+    padding-left: 41.5%;
+    padding-top: 30px;
+}
+
+#socialMedia ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#socialMedia li {
+    float:left;
+}
+
+#socialMedia li a {
+    padding: 20px;
+}
+
